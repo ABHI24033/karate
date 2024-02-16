@@ -33,3 +33,15 @@
     background-color: lightgray;
     width: 30%;
 }
+
+
+/* ============privacy policy=============== */
+.privacy_policy{
+    background-color: lightgray;
+    min-height: 100vh;
+}
+.privacy_policy_link:hover{
+    /* color: rgb(94, 1, 1); */
+    color: red !important;
+    text-decoration: underline !important;
+}
