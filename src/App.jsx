@@ -6,6 +6,7 @@ import logo from "../Images/Testimonials/logo-wide.png";
 import testimonial1 from '../Images/Testimonials/1.jpg';
 import testimonial2 from '../Images/Testimonials/2.jpg';
 import bg2 from '../Images/Bg/bg2.jpg';
+import bg19 from '../Images/Bg/bg19.jpg'
 import about4 from '../Images/About/4.jpg';
 import classes1 from '../Images/Classes/1.jpg'
 import classes2 from '../Images/Classes/2.jpg'
@@ -281,7 +282,7 @@ const App = () => {
               </div>
             </div>
             <div className="col-6 d-flex justify-content-center align-items-center ">
-              <img src="../Images/Testimonials/2.jpg" className='rounded-circle m-2 w-50 ' />
+              {/* <img src="../Images/Testimonials/2.jpg" className='rounded-circle m-2 w-50 ' /> */}
               <img src={testimonial2} className='rounded-circle m-2 w-50 ' />
               <div>
                 <span className="text-danger fw-bold">Shuri Rui</span>
@@ -493,7 +494,7 @@ const App = () => {
       <div className="row container mx-auto">
         <div className="col-3 box m-2">
           {/* <img src="../Images/Teams/1 (1).jpg" className=" w-100 my-2" /> */}
-          <img src="../Images/Teams/1 (1).jpg" className=" w-100 my-2" />
+          <img src={team1} className=" w-100 my-2" />
           <h3 className="mt-3 ms-3"><span className="text-danger fw-bold ">Private</span> | Group Lessons</h3>
           <p className="text-secondary fst-italic ms-2 my-0">01:00 pm - 03:00 pm</p>
           <p className="text-secondary fst-italic ms-2">121 King Street, Melbourne</p>
@@ -501,14 +502,15 @@ const App = () => {
         </div>
         {/* <div className="col-1"></div> */}
         <div className="col-3 box m-2">
-          <img src="../Images/Teams/2.jpg" className=" w-100 my-2" />
+          {/* <img src="../Images/Teams/2.jpg" className=" w-100 my-2" /> */}
+          <img src={team2} className=" w-100 my-2" />
           <h3 className="mt-3 ms-2"><span className="text-danger fw-bold">Private</span> | Group Lessons</h3>
           <p className="text-secondary fst-italic ms-2 my-0">01:00 pm - 03:00 pm</p>
           <p className="text-secondary fst-italic ms-2">121 King Street, Melbourne</p>
         </div>
         {/* <div className="col-1"></div> */}
         <div className="col-3 box m-2">
-          <img src="../Images/Teams/3.jpg" className=" w-100 my-2" />
+          <img src={team3} className=" w-100 my-2" />
           <h3 className="mt-3"><span className="text-danger fw-bold">Private</span> | Group Lessons</h3>
           <p className="text-secondary fst-italic my-0">01:00 pm - 03:00 pm</p>
           <p className="text-secondary fst-italic">121 King Street, Melbourne</p>
@@ -519,7 +521,7 @@ const App = () => {
 
       <div className="row container mx-auto">
         <div className="col-3  box m-2">
-          <img src="../Images/Teams/4.jpg" className=" w-100 my-2" />
+          <img src={team4} className=" w-100 my-2" />
           <h3 className="mt-3"><span className="text-danger fw-bold">Private</span> | Group Lessons</h3>
           <p className="text-secondary fst-italic my-0">01:00 pm - 03:00 pm</p>
           <p className="text-secondary fst-italic">121 King Street, Melbourne</p>
@@ -527,14 +529,14 @@ const App = () => {
         </div>
         {/* <div className="col-1"></div> ms-3*/}
         <div className="col-3 box m-2">
-          <img src="../Images/Teams/3.jpg" className=" w-100 my-2" />
+          <img src={team3} className=" w-100 my-2" />
           <h3 className="mt-3"><span className="text-danger fw-bold">Private</span> | Group Lessons</h3>
           <p className="text-secondary fst-italic my-0">01:00 pm - 03:00 pm</p>
           <p className="text-secondary fst-italic">121 King Street, Melbourne</p>
         </div>
         {/* <div className="col-1"></div> */}
         <div className="col-3 box m-2">
-          <img src="../Images/Teams/2.jpg" className=" w-100 my-2" />
+          <img src={team2} className=" w-100 my-2" />
           <h3 className="mt-3"><span className="text-danger fw-bold">Private</span> | Group Lessons</h3>
           <p className="text-secondary fst-italic my-0">01:00 pm - 03:00 pm</p>
           <p className="text-secondary fst-italic">121 King Street, Melbourne</p>
@@ -544,7 +546,8 @@ const App = () => {
 
       <div className="row mt-5 container mx-auto">
         <div className="col-5 ms-2 ">
-          <img src="../Images/Bg/bg19.jpg" width="450" height="350" />
+          {/* <img src="../Images/Bg/bg19.jpg" width="450" height="350" /> */}
+          <img src={bg19} width="450" height="350" />
         </div>
         <div className="col-6 ">
           <span className="text-danger fw-bold"><h2 className="fw-bold ms-2">TRAIN WITH THE LEGENDS</h2></span>
@@ -831,8 +834,8 @@ const App = () => {
           </div>
         </div>
       </section>
-      <div className="mt-3">
-        <button type="button" class="btn btn-danger">
+      <div className="mt-3 ">
+        <button type="button" class="btn btn-danger w-100">
           <img src={clients1} width="200" height="100"></img>
           {/* <img src="../Images/Clients/w1.png" width="200" height="100"></img> */}
           <img src={clients2} width="200" height="100"></img>
