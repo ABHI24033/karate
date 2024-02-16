@@ -155,15 +155,15 @@ const Home = () => {
       </nav>
 {/* coarousel  */}
 
-<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
+<div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+  <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src={bg2} class="d-block w-100" alt="..."/>
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+      <img src={bg2} className="d-block w-100 carousel_image" alt="..."/>
       {/* <div class="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
@@ -181,33 +181,33 @@ const Home = () => {
             </div>
 
     </div>
-    <div class="carousel-item">
-      <img src={bg3} class="d-block w-100" alt="..."/>
-      <div class="carousel-caption d-none d-md-block">
+    <div className="carousel-item">
+      <img src={bg3} className="d-block w-100  carousel_image" alt="..."/>
+      <div className="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
-    <div class="carousel-item">
-      <img src={bg19} class="d-block w-100" alt="..."/>
-      <div class="carousel-caption d-none d-md-block">
+    <div className="carousel-item">
+      <img src={bg19} className="d-block w-100 carousel_image" alt="..."/>
+      <div className="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>
       </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
+  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
+  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
   </button>
 </div>
 
-      <div className="row my-5 mx-auto w-100 px-5 about">
-        <div className="col-6 mt-1 ms-2 ">
+      <div className="row my-5 mx-auto w-100 sm:px-5 about">
+        <div className="col-12 col-md-6 mt-1 ms-2 ">
           <h2>
             WELCOME TO <span className="text-danger">MARTIAL ARTS</span>
           </h2>
@@ -222,7 +222,7 @@ const Home = () => {
             molestias?
           </p>
           <div className="row">
-            <div className="col-6 mt-1 d-flex justify-content-center align-items-center ">
+            <div className="col-12 col-sm-6 mt-1 d-flex justify-content-center align-items-center ">
               {/* <img src="../Images/Testimonials/1.jpg" className='rounded-circle m-2 w-50' /> */}
               <img src={testimonial1} className='rounded-circle m-2 w-50' />
               <div>
@@ -234,7 +234,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="col-6 d-flex justify-content-center align-items-center ">
+            <div className="col-12 col-sm-6 d-flex justify-content-center align-items-center ">
               {/* <img src="../Images/Testimonials/2.jpg" className='rounded-circle m-2 w-50 ' /> */}
               <img src={testimonial2} className='rounded-circle m-2 w-50 ' />
               <div>
@@ -248,19 +248,19 @@ const Home = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-6 d-flex justify-content-center align-items-center ">
+            <div className="col-12 col-sm-6 d-flex justify-content-center align-items-center ">
               {/* <img src="../Images/Testimonials/1.jpg" className='rounded-circle m-2 w-50' /> */}
               <img src={testimonial1} className='rounded-circle m-2 w-50' />
               <div>
                 <span className="text-danger fw-bold">American Karate</span>
                 <p className=" text-secondary fs-6">
                   {" "}
-                  Lorem ipsum dolor sit amet
+                  Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.
                 </p>
               </div>
 
             </div>
-            <div className=" col-6 d-flex justify-content-center align-items-center ">
+            <div className=" col-12 col-sm-6 d-flex justify-content-center align-items-center ">
               <img src={testimonial2} className='rounded-circle m-2 w-50' />
               {/* <img src="../Images/Testimonials/2.jpg" className='rounded-circle m-2 w-50' /> */}
               <div>
@@ -275,7 +275,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="col-5 mt-5">
+        <div className=" col-12 col-md-5 mt-5">
           {/* <img src="./Images/About/4.jpg" /> */}
           <img src={about4} />
         </div>
@@ -284,8 +284,8 @@ const Home = () => {
       <p className="display-6 fw-bold text-center">Our <span className="text-danger fw-bold">Classes</span></p>
       <p className="text-center font-italic">Join our martial art club and be healthy </p>
       {/* ms-5 */}
-      <div className="row container mx-auto my-4 box-parent">
-        <div className="col-3 mx-3 w-full box">
+      <div className="row container-fluid container-lg mx-auto my-4 box-parent">
+        <div className="col-12 col-sm-6 col-lg-3 mx-3 my-2 box">
           {/* <img src="../Images/Classes/1.jpg" className=" w-100 my-2" /> */}
           <img src={classes1} className=" w-100 my-2" />
           <h3 className="mt-3"><span className="text-danger fw-bold">Private</span> | Group Lessons</h3>
@@ -294,7 +294,7 @@ const Home = () => {
 
         </div>
         {/* <div className="col-1"></div> */}
-        <div className="col-3 mx-3 box">
+        <div className="col-12 col-sm-6 col-lg-3 mx-3 my-2 box">
           {/* <img src="../Images/Classes/2.jpg" className=" w-100 my-2" /> */}
           <img src={classes2} className=" w-100 my-2" />
           <h3 className="mt-3"><span className="text-danger fw-bold">Private</span> | Group Lessons</h3>
@@ -302,16 +302,16 @@ const Home = () => {
           <p className="text-secondary fst-italic">121 King Street, Melbourne</p>
         </div>
         {/* <div className="col-1"></div> */}
-        <div className="col-3 mx-3 box ">
+        <div className="col-12 col-sm-6 col-lg-3 mx-3 box ">
           <img src={classes3} className=" w-100 my-2" />
           <h3 className="mt-3"><span className="text-danger fw-bold">Private</span> | Group Lessons</h3>
           <p className="text-secondary fst-italic my-0">01:00 pm - 03:00 pm</p>
           <p className="text-secondary fst-italic">121 King Street, Melbourne</p>
         </div>
         {/* <div className="col-1"></div> */}
-      </div>
-      <div className="row container mx-auto my-4 box-parent">
-        <div className="col-3 mx-3 w-full box">
+      {/* </div> */}
+      {/* <div className="row container mx-auto my-4 box-parent"> */}
+        <div className="col-12 col-sm-6 col-lg-3 mx-3 my-2 w-full box">
           {/* <img src="../Images/Classes/4.jpg" className=" w-100 my-2" /> */}
           <img src={classes4} className=" w-100 my-2" />
           <h3 className="mt-3"><span className="text-danger fw-bold">Private</span> | Group Lessons</h3>
@@ -320,14 +320,14 @@ const Home = () => {
 
         </div>
         {/* <div className="col-1"></div> */}
-        <div className="col-3 mx-3 box">
+        <div className="col-12 col-sm-6 col-lg-3 mx-3 my-2 box">
           <img src={classes5} className=" w-100 my-2" />
           <h3 className="mt-3"><span className="text-danger fw-bold">Private</span> | Group Lessons</h3>
           <p className="text-secondary fst-italic my-0">01:00 pm - 03:00 pm</p>
           <p className="text-secondary fst-italic">121 King Street, Melbourne</p>
         </div>
         {/* <div className="col-1"></div> */}
-        <div className="col-3 mx-3 box ">
+        <div className="col-12 col-sm-6 col-lg-3 mx-3 box ">
           <img src={classes1} className=" w-100 my-2" />
           <h3 className="mt-3"><span className="text-danger fw-bold">Private</span> | Group Lessons</h3>
           <p className="text-secondary fst-italic my-0">01:00 pm - 03:00 pm</p>
@@ -338,10 +338,10 @@ const Home = () => {
 
 
       <section className=" container my-5">
-        <div class="row d-flex justify-content-center">
-          <div class="col-md-10 col-xl-8 text-center">
-            <h3 class="mt-5">Testimonials</h3>
-            <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+        <div className="row d-flex justify-content-center">
+          <div className="col-md-10 col-xl-8 text-center">
+            <h3 className="mt-5">Testimonials</h3>
+            <p className="mb-4 pb-2 mb-md-5 pb-md-0">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet
               numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum
               quisquam eum porro a pariatur veniam.
@@ -349,64 +349,64 @@ const Home = () => {
           </div>
         </div>
 
-        <div class="row text-center ">
-          <div class="col-md-4 mb-5 mb-md-0 ">
-            <div class="d-flex justify-content-center mb-4">
+        <div className="row text-center ">
+          <div className="col-md-4 mb-5 mb-md-0 ">
+            <div className="d-flex justify-content-center mb-4">
               {/* <img src="../Images/Gallery/gallery-md1.jpg" alt="" */}
               <img src={gallery1} alt=""
-                class="rounded-circle shadow-1-strong" width="150" height="150" />
+                className="rounded-circle shadow-1-strong" width="150" height="150" />
             </div>
-            <h5 class="mb-3">Maria Smantha</h5>
-            <h6 class="text-primary mb-3">karate</h6>
-            <p class="px-xl-3">
-              <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet, consectetur
+            <h5 className="mb-3">Maria Smantha</h5>
+            <h6 className="text-primary mb-3">karate</h6>
+            <p className="px-xl-3">
+              <i className="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet, consectetur
               adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic
               tenetur.
             </p>
-            <ul class="list-unstyled d-flex justify-content-center mb-0">
+            <ul className="list-unstyled d-flex justify-content-center mb-0">
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
               <li>
-                <i class="fas fa-star-half-alt fa-sm text-warning"></i>
+                <i className="fas fa-star-half-alt fa-sm text-warning"></i>
               </li>
             </ul>
           </div>
-          <div class="col-md-4 mb-5 mb-md-0 ">
-            <div class="d-flex justify-content-center mb-4">
+          <div className="col-md-4 mb-5 mb-md-0 ">
+            <div className="d-flex justify-content-center mb-4">
               <img src={gallery2}
-                class="rounded-circle shadow-1-strong" width="150" height="150" />
+                className="rounded-circle shadow-1-strong" width="150" height="150" />
             </div>
-            <h5 class="mb-3">Lisa Cudrow</h5>
-            <h6 class="text-primary mb-3">karate</h6>
-            <p class="px-xl-3">
-              <i class="fas fa-quote-left pe-2"></i>Ut enim ad minima veniam, quis nostrum
+            <h5 className="mb-3">Lisa Cudrow</h5>
+            <h6 className="text-primary mb-3">karate</h6>
+            <p className="px-xl-3">
+              <i className="fas fa-quote-left pe-2"></i>Ut enim ad minima veniam, quis nostrum
               exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid commodi.
             </p>
-            <ul class="list-unstyled d-flex justify-content-center mb-0">
+            <ul className="list-unstyled d-flex justify-content-center mb-0">
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
               <li>
-                <i class="fas fa-star fa-sm text-warning"></i>
+                <i className="fas fa-star fa-sm text-warning"></i>
               </li>
             </ul>
           </div>
@@ -444,8 +444,8 @@ const Home = () => {
 
       <p className="display-6 fw-bold text-center">Our <span className="text-danger fw-bold">Trainers</span></p>
       <p className="text-center font-italic">Join our martial art club and be healthy </p>
-      <div className="row container mx-auto">
-        <div className="col-3 box m-2">
+      <div className="row container-fluid container-lg justify-content-center mx-auto">
+        <div className="col-12 col-sm-6 col-lg-3 box m-2">
           {/* <img src="../Images/Teams/1 (1).jpg" className=" w-100 my-2" /> */}
           <img src={team1} className=" w-100 my-2" />
           <h3 className="mt-3 ms-3"><span className="text-danger fw-bold ">Private</span> | Group Lessons</h3>
@@ -454,7 +454,7 @@ const Home = () => {
 
         </div>
         {/* <div className="col-1"></div> */}
-        <div className="col-3 box m-2">
+        <div className="col-12 col-sm-6 col-lg-3 box m-2">
           {/* <img src="../Images/Teams/2.jpg" className=" w-100 my-2" /> */}
           <img src={team2} className=" w-100 my-2" />
           <h3 className="mt-3 ms-2"><span className="text-danger fw-bold">Private</span> | Group Lessons</h3>
@@ -462,18 +462,18 @@ const Home = () => {
           <p className="text-secondary fst-italic ms-2">121 King Street, Melbourne</p>
         </div>
         {/* <div className="col-1"></div> */}
-        <div className="col-3 box m-2">
+        <div className="col-12 col-sm-6 col-lg-3 box m-2">
           <img src={team3} className=" w-100 my-2" />
           <h3 className="mt-3"><span className="text-danger fw-bold">Private</span> | Group Lessons</h3>
           <p className="text-secondary fst-italic my-0">01:00 pm - 03:00 pm</p>
           <p className="text-secondary fst-italic">121 King Street, Melbourne</p>
         </div>
         {/* <div className="col-1"></div> */}
-      </div>
+      {/* </div> */}
 
 
-      <div className="row container mx-auto">
-        <div className="col-3  box m-2">
+      {/* <div className="row container mx-auto"> */}
+        <div className="col-12 col-sm-6 col-lg-3  box m-2">
           <img src={team4} className=" w-100 my-2" />
           <h3 className="mt-3"><span className="text-danger fw-bold">Private</span> | Group Lessons</h3>
           <p className="text-secondary fst-italic my-0">01:00 pm - 03:00 pm</p>
@@ -481,14 +481,14 @@ const Home = () => {
 
         </div>
         {/* <div className="col-1"></div> ms-3*/}
-        <div className="col-3 box m-2">
+        <div className="col-12 col-sm-6 col-lg-3 box m-2">
           <img src={team3} className=" w-100 my-2" />
           <h3 className="mt-3"><span className="text-danger fw-bold">Private</span> | Group Lessons</h3>
           <p className="text-secondary fst-italic my-0">01:00 pm - 03:00 pm</p>
           <p className="text-secondary fst-italic">121 King Street, Melbourne</p>
         </div>
         {/* <div className="col-1"></div> */}
-        <div className="col-3 box m-2">
+        <div className="col-12 col-sm-6 col-lg-3 box m-2">
           <img src={team2} className=" w-100 my-2" />
           <h3 className="mt-3"><span className="text-danger fw-bold">Private</span> | Group Lessons</h3>
           <p className="text-secondary fst-italic my-0">01:00 pm - 03:00 pm</p>
@@ -498,11 +498,11 @@ const Home = () => {
       </div>
 
       <div className="row mt-5 container mx-auto">
-        <div className="col-5 ms-2 ">
-          {/* <img src="../Images/Bg/bg19.jpg" width="450" height="350" /> */}
-          <img src={bg19} width="450" height="350" />
+        <div className="col-12 col-md-5 ms-md-2 ">
+          {/* <img src="../Images/Bg/bg19.jpg" width="450" width="400" height="350" /> */}
+          <img src={bg19} className=' w-100'  height="350" />
         </div>
-        <div className="col-6 ">
+        <div className="col-12 col-md-6 mt-2">
           <span className="text-danger fw-bold"><h2 className="fw-bold ms-2">TRAIN WITH THE LEGENDS</h2></span>
           <p className="fst-italic p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium doloremque corrupti eligendi veniam ab odio sint nesciunt ducimus dolor molestias soluta aliquam cupiditate fugiat temporibus nam, nemo deleniti quia? Quas ut asperiores porro aliquid, molestiae itaque dolores delectus ab ipsa? Error rerum possimus neque tempora ipsam a sit repellat porro, vitae veniam dignissimos ad quo repudiandae modi reprehenderit velit illo.</p>
           <h4 className="ms-2">OUR SKILLS</h4>
@@ -560,7 +560,7 @@ const Home = () => {
       <p className="display-6 fw-bold text-center mt-5">MEMBERSHIP <span className="text-danger fw-bold">PACKAGES</span></p>
       {/* <p className="text-center"></p> */}
       <div className="row px-5 py-5 d-flex justify-content-center" style={{ backgroundColor: "lightgray" }}>
-        <div className="col-3  membership-card ">
+        <div className="col-12 col-sm-6 col-lg-3  membership-card ">
           {/* <img src="../Images/Pricing/1.jpg" className=" w-100" /> */}
           <img src={price1} className=" w-100" />
           <div>
@@ -579,7 +579,7 @@ const Home = () => {
         </div>
         {/* <div className="col-1">
         </div> */}
-        <div className="col-3 membership-card">
+        <div className="col-12 col-sm-6 col-lg-3 membership-card">
           {/* <img src="../Images/Pricing/2.jpg" height={160} className="w-100" /> */}
           <img src={price2} height={160} className="w-100" />
           <div>
@@ -597,7 +597,7 @@ const Home = () => {
         </div>
         {/* <div className="col-1"> */}
         {/* </div> */}
-        <div className="col-3 membership-card">
+        <div className="col-12 col-sm-6 col-lg-3 membership-card">
           {/* <img src="../Images/Pricing/3.jpg" className="w-100" /> */}
           <img src={price3} className="w-100" />
           <div>
@@ -631,7 +631,7 @@ const Home = () => {
         </div>
 
         <div class="row text-center justify-content-center">
-          <div class="col-md-3 mb-5 mb-md-0 happy_client_box py-2 mx-2">
+          <div class=" col-12 col-sm-6 col-lg-3 mb-5 mb-md-0 happy_client_box py-2 mx-2">
             <div class="d-flex justify-content-center mb-4">
               {/* <img src="../Images/Gallery/gallery-md1.jpg" alt="" */}
               <img src={gallery1} alt=""
@@ -662,7 +662,7 @@ const Home = () => {
               </li>
             </ul>
           </div>
-          <div class="col-md-3 mb-5 mb-md-0 happy_client_box py-2 mx-2">
+          <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-md-0 happy_client_box py-2 mx-2">
             <div class="d-flex justify-content-center mb-4">
               {/* <img src="../Images/Gallery/gallery-md2.jpg" */}
               <img src={gallery2}
@@ -692,7 +692,7 @@ const Home = () => {
               </li>
             </ul>
           </div>
-          <div class="col-md-3 mb-0 happy_client_box py-2 mx-2">
+          <div class="col-12 col-sm-6 col-lg-3 mb-0 happy_client_box py-2 mx-2">
             <div class="d-flex justify-content-center mb-4">
               {/* <img src="../Images/Gallery/gallery-md3.jpg" */}
               <img src={gallery3}
