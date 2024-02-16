@@ -3,8 +3,51 @@ import "./App.css";
 
 // import logo from "./Images/Testimonials/logo-wide.png";
 import logo from "../Images/Testimonials/logo-wide.png";
-
+import testimonial1 from '../Images/Testimonials/1.jpg';
+import testimonial2 from '../Images/Testimonials/2.jpg';
 import bg2 from '../Images/Bg/bg2.jpg';
+import about4 from '../Images/About/4.jpg';
+import classes1 from '../Images/Classes/1.jpg'
+import classes2 from '../Images/Classes/2.jpg'
+import classes3 from '../Images/Classes/3.jpg'
+import classes4 from '../Images/Classes/4.jpg'
+import classes5 from '../Images/Classes/5.jpg'
+
+import gallery1 from "../Images/Gallery/gallery-md1.jpg";
+import gallery2 from "../Images/Gallery/gallery-md2.jpg";
+import gallery3 from "../Images/Gallery/gallery-md3.jpg";
+import gallery4 from "../Images/Gallery/gallery-md4.jpg";
+import gallery5 from "../Images/Gallery/gallery-md5.jpg";
+import gallery6 from "../Images/Gallery/gallery-md6.jpg";
+import gallery7 from "../Images/Gallery/gallery-md7.jpg";
+import gallery8 from "../Images/Gallery/gallery-md8.jpg";
+import gallery9 from "../Images/Gallery/gallery-md9.jpg";
+import gallery10 from "../Images/Gallery/gallery-md10.jpg";
+import gallery11 from "../Images/Gallery/gallery-md11.jpg";
+import gallery12 from "../Images/Gallery/gallery-md12.jpg";
+
+import team1 from '../Images/Teams/1 (1).jpg';
+import team2 from '../Images/Teams/2.jpg';
+import team3 from '../Images/Teams/3.jpg';
+import team4 from '../Images/Teams/4.jpg';
+
+import price1 from '../Images/Pricing/1.jpg';
+import price2 from '../Images/Pricing/2.jpg';
+import price3 from '../Images/Pricing/3.jpg';
+
+import news1 from '../Images/News/1.jpg';
+import news2 from '../Images/News/2.jpg';
+import news3 from '../Images/News/3.jpg';
+
+import clients1 from '../Images/Clients/w1.png';
+import clients2 from '../Images/Clients/w2.png';
+import clients3 from '../Images/Clients/w3.png';
+import clients4 from '../Images/Clients/w4.png';
+import clients5 from '../Images/Clients/w5.png';
+import clients6 from '../Images/Clients/w6.png';
+
+
+
 const App = () => {
   return (
     <div>
@@ -226,7 +269,8 @@ const App = () => {
           </p>
           <div className="row">
             <div className="col-6 mt-1 d-flex justify-content-center align-items-center ">
-              <img src="../Images/Testimonials/1.jpg" className='rounded-circle m-2 w-50' />
+              {/* <img src="../Images/Testimonials/1.jpg" className='rounded-circle m-2 w-50' /> */}
+              <img src={testimonial1} className='rounded-circle m-2 w-50' />
               <div>
                 <span className="text-danger fw-bold">American Karate</span>
                 <p>
@@ -238,6 +282,7 @@ const App = () => {
             </div>
             <div className="col-6 d-flex justify-content-center align-items-center ">
               <img src="../Images/Testimonials/2.jpg" className='rounded-circle m-2 w-50 ' />
+              <img src={testimonial2} className='rounded-circle m-2 w-50 ' />
               <div>
                 <span className="text-danger fw-bold">Shuri Rui</span>
                 <p>
@@ -250,7 +295,8 @@ const App = () => {
           </div>
           <div className="row">
             <div className="col-6 d-flex justify-content-center align-items-center ">
-              <img src="../Images/Testimonials/1.jpg" className='rounded-circle m-2 w-50' />
+              {/* <img src="../Images/Testimonials/1.jpg" className='rounded-circle m-2 w-50' /> */}
+              <img src={testimonial1} className='rounded-circle m-2 w-50' />
               <div>
                 <span className="text-danger fw-bold">American Karate</span>
                 <p className=" text-secondary fs-6">
@@ -261,7 +307,8 @@ const App = () => {
 
             </div>
             <div className=" col-6 d-flex justify-content-center align-items-center ">
-              <img src="../Images/Testimonials/2.jpg" className='rounded-circle m-2 w-50' />
+              <img src={testimonial2} className='rounded-circle m-2 w-50' />
+              {/* <img src="../Images/Testimonials/2.jpg" className='rounded-circle m-2 w-50' /> */}
               <div>
                 <span className="text-danger fw-bold">Shuri Rui</span>
                 <p>
@@ -275,7 +322,8 @@ const App = () => {
           </div>
         </div>
         <div className="col-5 mt-5">
-          <img src="./Images/About/4.jpg" />
+          {/* <img src="./Images/About/4.jpg" /> */}
+          <img src={about4} />
         </div>
       </div>
 
@@ -284,7 +332,8 @@ const App = () => {
       {/* ms-5 */}
       <div className="row container mx-auto my-4 box-parent">
         <div className="col-3 mx-3 w-full box">
-          <img src="../Images/Classes/1.jpg" className=" w-100 my-2" />
+          {/* <img src="../Images/Classes/1.jpg" className=" w-100 my-2" /> */}
+          <img src={classes1} className=" w-100 my-2" />
           <h3 className="mt-3"><span className="text-danger fw-bold">Private</span> | Group Lessons</h3>
           <p className="text-secondary fst-italic my-0">01:00 pm - 03:00 pm</p>
           <p className="text-secondary fst-italic">121 King Street, Melbourne</p>
@@ -292,14 +341,15 @@ const App = () => {
         </div>
         {/* <div className="col-1"></div> */}
         <div className="col-3 mx-3 box">
-          <img src="../Images/Classes/2.jpg" className=" w-100 my-2" />
+          {/* <img src="../Images/Classes/2.jpg" className=" w-100 my-2" /> */}
+          <img src={classes2} className=" w-100 my-2" />
           <h3 className="mt-3"><span className="text-danger fw-bold">Private</span> | Group Lessons</h3>
           <p className="text-secondary fst-italic my-0">01:00 pm - 03:00 pm</p>
           <p className="text-secondary fst-italic">121 King Street, Melbourne</p>
         </div>
         {/* <div className="col-1"></div> */}
         <div className="col-3 mx-3 box ">
-          <img src="../Images/Classes/3.jpg" className=" w-100 my-2" />
+          <img src={classes3} className=" w-100 my-2" />
           <h3 className="mt-3"><span className="text-danger fw-bold">Private</span> | Group Lessons</h3>
           <p className="text-secondary fst-italic my-0">01:00 pm - 03:00 pm</p>
           <p className="text-secondary fst-italic">121 King Street, Melbourne</p>
@@ -308,7 +358,8 @@ const App = () => {
       </div>
       <div className="row container mx-auto my-4 box-parent">
         <div className="col-3 mx-3 w-full box">
-          <img src="../Images/Classes/4.jpg" className=" w-100 my-2" />
+          {/* <img src="../Images/Classes/4.jpg" className=" w-100 my-2" /> */}
+          <img src={classes4} className=" w-100 my-2" />
           <h3 className="mt-3"><span className="text-danger fw-bold">Private</span> | Group Lessons</h3>
           <p className="text-secondary fst-italic my-0">01:00 pm - 03:00 pm</p>
           <p className="text-secondary fst-italic">121 King Street, Melbourne</p>
@@ -316,14 +367,14 @@ const App = () => {
         </div>
         {/* <div className="col-1"></div> */}
         <div className="col-3 mx-3 box">
-          <img src="../Images/Classes/5.jpg" className=" w-100 my-2" />
+          <img src={classes5} className=" w-100 my-2" />
           <h3 className="mt-3"><span className="text-danger fw-bold">Private</span> | Group Lessons</h3>
           <p className="text-secondary fst-italic my-0">01:00 pm - 03:00 pm</p>
           <p className="text-secondary fst-italic">121 King Street, Melbourne</p>
         </div>
         {/* <div className="col-1"></div> */}
         <div className="col-3 mx-3 box ">
-          <img src="../Images/Classes/1.jpg" className=" w-100 my-2" />
+          <img src={classes1} className=" w-100 my-2" />
           <h3 className="mt-3"><span className="text-danger fw-bold">Private</span> | Group Lessons</h3>
           <p className="text-secondary fst-italic my-0">01:00 pm - 03:00 pm</p>
           <p className="text-secondary fst-italic">121 King Street, Melbourne</p>
@@ -347,7 +398,8 @@ const App = () => {
         <div class="row text-center ">
           <div class="col-md-4 mb-5 mb-md-0 ">
             <div class="d-flex justify-content-center mb-4">
-              <img src="../Images/Gallery/gallery-md1.jpg" alt=""
+              {/* <img src="../Images/Gallery/gallery-md1.jpg" alt="" */}
+              <img src={gallery1} alt=""
                 class="rounded-circle shadow-1-strong" width="150" height="150" />
             </div>
             <h5 class="mb-3">Maria Smantha</h5>
@@ -377,7 +429,7 @@ const App = () => {
           </div>
           <div class="col-md-4 mb-5 mb-md-0 ">
             <div class="d-flex justify-content-center mb-4">
-              <img src="../Images/Gallery/gallery-md2.jpg"
+              <img src={gallery2}
                 class="rounded-circle shadow-1-strong" width="150" height="150" />
             </div>
             <h5 class="mb-3">Lisa Cudrow</h5>
@@ -406,7 +458,7 @@ const App = () => {
           </div>
           <div class="col-md-4 mb-0">
             <div class="d-flex justify-content-center mb-4">
-              <img src="../Images/Gallery/gallery-md3.jpg"
+              <img src={gallery3}
                 class="rounded-circle shadow-1-strong" width="150" height="150" />
             </div>
             <h5 class="mb-3">John Smith</h5>
@@ -440,6 +492,7 @@ const App = () => {
       <p className="text-center font-italic">Join our martial art club and be healthy </p>
       <div className="row container mx-auto">
         <div className="col-3 box m-2">
+          {/* <img src="../Images/Teams/1 (1).jpg" className=" w-100 my-2" /> */}
           <img src="../Images/Teams/1 (1).jpg" className=" w-100 my-2" />
           <h3 className="mt-3 ms-3"><span className="text-danger fw-bold ">Private</span> | Group Lessons</h3>
           <p className="text-secondary fst-italic ms-2 my-0">01:00 pm - 03:00 pm</p>
@@ -506,44 +559,45 @@ const App = () => {
       <p className="text-center font-italic">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem aliquam corporis officia consequuntur cumque animi</p>
       <div className="row mx-3">
         <div className="col-3 bg-danger px-0 border border-white">
-          <img src="../Images/Gallery/gallery-md1.jpg" className=" w-100 h-100" />
+          <img src={gallery1} className=" w-100 h-100" />
         </div>
         <div className="col-3 px-0 border border-white">
-          <img src="../Images/Gallery/gallery-md2.jpg" className=" w-100" />
+          {/* <img src="../Images/Gallery/gallery-md2.jpg" className=" w-100" /> */}
+          <img src={gallery2} className=" w-100" />
         </div>
         <div className="col-3 px-0 border border-white">
-          <img src="../Images/Gallery/gallery-md3.jpg" className=" w-100" />
+          <img src={gallery3} className=" w-100" />
         </div>
         <div className="col-3 px-0 border border-white">
-          <img src="../Images/Gallery/gallery-md4.jpg" className=" w-100" />
-        </div>
-      </div>
-      <div className="row mx-3">
-        <div className="col-3 px-0 border border-white">
-          <img src="../Images/Gallery/gallery-md5.jpg" className=" w-100" />
-        </div>
-        <div className="col-3 px-0 border border-white">
-          <img src="../Images/Gallery/gallery-md6.jpg" className=" w-100" />
-        </div>
-        <div className="col-3 px-0 border border-white">
-          <img src="../Images/Gallery/gallery-md7.jpg" className=" w-100" />
-        </div>
-        <div className="col-3 px-0 border border-white">
-          <img src="../Images/Gallery/gallery-md8.jpg" className=" w-100" />
+          <img src={gallery4} className=" w-100" />
         </div>
       </div>
       <div className="row mx-3">
         <div className="col-3 px-0 border border-white">
-          <img src="../Images/Gallery/gallery-md9.jpg" className=" w-100" />
+          <img src={gallery5} className=" w-100" />
         </div>
         <div className="col-3 px-0 border border-white">
-          <img src="../Images/Gallery/gallery-md10.jpg" className=" w-100" />
+          <img src={gallery6} className=" w-100" />
         </div>
         <div className="col-3 px-0 border border-white">
-          <img src="../Images/Gallery/gallery-md11.jpg" className=" w-100" />
+          <img src={gallery7} className=" w-100" />
         </div>
         <div className="col-3 px-0 border border-white">
-          <img src="../Images/Gallery/gallery-md12.jpg" className=" w-100" />
+          <img src={gallery8} className=" w-100" />
+        </div>
+      </div>
+      <div className="row mx-3">
+        <div className="col-3 px-0 border border-white">
+          <img src={gallery9} className=" w-100" />
+        </div>
+        <div className="col-3 px-0 border border-white">
+          <img src={gallery10} className=" w-100" />
+        </div>
+        <div className="col-3 px-0 border border-white">
+          <img src={gallery11} className=" w-100" />
+        </div>
+        <div className="col-3 px-0 border border-white">
+          <img src={gallery12} className=" w-100" />
         </div>
       </div>
 
@@ -551,7 +605,8 @@ const App = () => {
       {/* <p className="text-center"></p> */}
       <div className="row px-5 py-5 d-flex justify-content-center" style={{ backgroundColor: "lightgray" }}>
         <div className="col-3  membership-card ">
-          <img src="../Images/Pricing/1.jpg" className=" w-100" />
+          {/* <img src="../Images/Pricing/1.jpg" className=" w-100" /> */}
+          <img src={price1} className=" w-100" />
           <div>
             <h3 className="bg-dark text-light text-center ms-auto my-0 pt-3">BEGINNER</h3>
             <p className="bg-dark text-light text-center ms-auto my-0 pb-3">TRAINING WITH JON ISMAIL</p>
@@ -569,7 +624,8 @@ const App = () => {
         {/* <div className="col-1">
         </div> */}
         <div className="col-3 membership-card">
-          <img src="../Images/Pricing/2.jpg" height={160} className="w-100" />
+          {/* <img src="../Images/Pricing/2.jpg" height={160} className="w-100" /> */}
+          <img src={price2} height={160} className="w-100" />
           <div>
             <h3 className="bg-dark text-light text-center ms-auto my-0 pt-3">BEGINNER</h3>
             <p className="bg-dark text-light text-center ms-auto my-0 pb-3">TRAINING WITH JON ISMAIL</p>
@@ -586,7 +642,8 @@ const App = () => {
         {/* <div className="col-1"> */}
         {/* </div> */}
         <div className="col-3 membership-card">
-          <img src="../Images/Pricing/3.jpg" className="w-100" />
+          {/* <img src="../Images/Pricing/3.jpg" className="w-100" /> */}
+          <img src={price3} className="w-100" />
           <div>
             <h3 className="bg-dark text-light text-center ms-auto my-0 pt-3">BEGINNER</h3>
             <p className="bg-dark text-light text-center ms-auto my-0 pb-3">TRAINING WITH JON ISMAIL</p>
@@ -620,7 +677,8 @@ const App = () => {
         <div class="row text-center justify-content-center">
           <div class="col-md-3 mb-5 mb-md-0 happy_client_box py-2 mx-2">
             <div class="d-flex justify-content-center mb-4">
-              <img src="../Images/Gallery/gallery-md1.jpg" alt=""
+              {/* <img src="../Images/Gallery/gallery-md1.jpg" alt="" */}
+              <img src={gallery1} alt=""
                 class="rounded-circle shadow-1-strong" width="150" height="150" />
             </div>
             <h5 class="mb-3">Maria Smantha</h5>
@@ -650,7 +708,8 @@ const App = () => {
           </div>
           <div class="col-md-3 mb-5 mb-md-0 happy_client_box py-2 mx-2">
             <div class="d-flex justify-content-center mb-4">
-              <img src="../Images/Gallery/gallery-md2.jpg"
+              {/* <img src="../Images/Gallery/gallery-md2.jpg" */}
+              <img src={gallery2}
                 class="rounded-circle shadow-1-strong" width="150" height="150" />
             </div>
             <h5 class="mb-3">Lisa Cudrow</h5>
@@ -679,7 +738,8 @@ const App = () => {
           </div>
           <div class="col-md-3 mb-0 happy_client_box py-2 mx-2">
             <div class="d-flex justify-content-center mb-4">
-              <img src="../Images/Gallery/gallery-md3.jpg"
+              {/* <img src="../Images/Gallery/gallery-md3.jpg" */}
+              <img src={gallery3}
                 class="rounded-circle shadow-1-strong" width="150" height="150" />
             </div>
             <h5 class="mb-3">John Smith</h5>
@@ -727,7 +787,8 @@ const App = () => {
         <div class="row text-center justify-content-center">
           <div class="col-md-4 mb-5 mb-md-0 happy_client_box py-4 mx-1">
             <div class="d-flex justify-content-center mb-4">
-              <img src="../Images/Gallery/gallery-md1.jpg" alt=""
+              {/* <img src="../Images/Gallery/gallery-md1.jpg" alt="" */}
+              <img src={gallery1} alt=""
                 width="200" height="200" />
             </div>
             <h5 class="mb-3">Maria Smantha</h5>
@@ -742,7 +803,7 @@ const App = () => {
           </div>
           <div class="col-md-4 mb-5 mb-md-0 happy_client_box py-4 mx-1">
             <div class="d-flex justify-content-center mb-4">
-              <img src="../Images/Gallery/gallery-md2.jpg"
+              <img src={gallery2}
                 width="200" height="200" />
             </div>
             <h5 class="mb-3">Lisa Cudrow</h5>
@@ -755,7 +816,7 @@ const App = () => {
           </div>
           <div class="col-md-4 mb-0 happy_client_box py-4 mx-1">
             <div class="d-flex justify-content-center mb-4">
-              <img src="../Images/Gallery/gallery-md3.jpg"
+              <img src={gallery3}
                 width="200" height="200" />
             </div>
             <h5 class="mb-3">John Smith</h5>
@@ -772,12 +833,18 @@ const App = () => {
       </section>
       <div className="mt-3">
         <button type="button" class="btn btn-danger">
-          <img src="../Images/Clients/w1.png" width="200" height="100"></img>
-          <img src="../Images/Clients/w2.png" width="200" height="100"></img>
-          <img src="../Images/Clients/w3.png" width="200" height="100"></img>
-          <img src="../Images/Clients/w4.png" width="200" height="100"></img>
-          <img src="../Images/Clients/w5.png" width="200" height="100"></img>
-          <img src="../Images/Clients/w6.png" width="200" height="100"></img>
+          <img src={clients1} width="200" height="100"></img>
+          {/* <img src="../Images/Clients/w1.png" width="200" height="100"></img> */}
+          <img src={clients2} width="200" height="100"></img>
+          {/* <img src="../Images/Clients/w2.png" width="200" height="100"></img> */}
+          <img src={clients3} width="200" height="100"></img>
+          {/* <img src="../Images/Clients/w3.png" width="200" height="100"></img> */}
+          <img src={clients4} width="200" height="100"></img>
+          {/* <img src="../Images/Clients/w4.png" width="200" height="100"></img> */}
+          <img src={clients5} width="200" height="100"></img>
+          {/* <img src="../Images/Clients/w5.png" width="200" height="100"></img> */}
+          <img src={clients6} width="200" height="100"></img>
+          {/* <img src="../Images/Clients/w6.png" width="200" height="100"></img> */}
         </button>
       </div>
 
