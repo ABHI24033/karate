@@ -4,6 +4,7 @@ import "./App.css";
 // import logo from "./Images/Testimonials/logo-wide.png";
 import logo from "../Images/Testimonials/logo-wide.png";
 
+import bg2 from '../Images/Bg/bg2.jpg';
 const App = () => {
   return (
     <div>
@@ -139,7 +140,8 @@ const App = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src="../Images/Bg/bg2.jpg"
+              // src="../Images/Bg/bg2.jpg"
+              src={bg2}
               className="d-block w-100"
               alt="Wild Landscape"
             />
