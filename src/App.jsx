@@ -1,6 +1,9 @@
 import React from "react";
 import "./App.css";
 
+// import logo from "./Images/Testimonials/logo-wide.png";
+import logo from "../Images/Testimonials/logo-wide.png";
+
 const App = () => {
   return (
     <div>
@@ -60,7 +63,8 @@ const App = () => {
 
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand ms-5" href="#">
-          <img src="./Images/Testimonials/logo-wide.png" alt="" />
+          {/* <img src="./Images/Testimonials/logo-wide.png" alt="" /> */}
+          <img src={logo} alt="" />
         </a>
         <button
           className="navbar-toggler"
