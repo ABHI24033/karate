@@ -139,7 +139,7 @@ const App = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src="./Images/Bg/bg2.jpg"
+              src="../Images/Bg/bg2.jpg"
               className="d-block w-100"
               alt="Wild Landscape"
             />
